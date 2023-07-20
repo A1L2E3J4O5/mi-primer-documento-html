@@ -1,0 +1,13 @@
+*
+{
+    background-color: aqua;
+}
+
+.container
+{
+    margin: 10px;
+    padding: 100;
+    color: red;
+    width: 75%;
+    height: 25%;
+}
