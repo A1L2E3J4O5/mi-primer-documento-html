@@ -1,0 +1,38 @@
+body
+{
+    background-color: aqua;
+    margin: 0%;
+}
+
+.header
+{
+    background-color: yellow;
+    float: right;
+    height: 40px;
+    width: 1000px;
+}
+
+.sidebar
+{
+    background-color: white;
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+.content
+{
+    float: right;
+    width: 75%;
+    height: 400px;
+    background-color: red;
+}
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+    float: left;
+}
