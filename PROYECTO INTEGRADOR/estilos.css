@@ -1,8 +1,68 @@
-body{
-    margin: 50px;
-    background-color: lightgreen;
-    }
- .title{
-    text-align: center;
-    color: red;
-    }
+   *
+      {
+         height: auto;
+         margin: 10px;
+      }
+
+   .perfil
+      {
+         margin-top: 50px;
+         width:95%;
+         height: 30%;
+      }
+   .container
+      {
+         display: grid;
+         grid-template-columns: 4fr 8fr;
+      }
+   .box1
+      {
+         background-color: rgb(44, 44, 199);
+         height: 109%;
+         width: 95%;
+      }
+   .box2
+      {
+         background-color: whitesmoke;
+         color: black;
+         padding: 10px;
+         padding-top: 50px;
+         height: 100%;
+         width: 95%;
+      }
+   h1
+      {
+         font-size: xx-large;
+         text-align: center;
+      }
+   p
+      {
+         text-align: justify;
+
+      }
+   h3
+      {
+         text-align: left;
+      }
+   h2
+      {
+         background-color: lightskyblue; 
+         margin: 10px;
+         color: white;
+         text-align: center;
+
+      }
+   #educacion
+      {
+         width: 200px;
+      }
+   .borde
+      {
+         border: solid black 1px;
+      }
+   .contacto
+      {
+         color: white;
+         text-align: center;
+         font-size: large;
+      }
