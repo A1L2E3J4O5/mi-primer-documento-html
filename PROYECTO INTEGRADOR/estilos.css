@@ -1,14 +1,13 @@
-   *
+   .CENTER
       {
-         height: auto;
-         margin: 10px;
+         font-size: xx-large;
       }
 
    .perfil
       {
          margin-top: 50px;
-         width:95%;
-         height: 30%;
+         width:50%;
+         height: 20%;
       }
    .container
       {
@@ -18,51 +17,58 @@
    .box1
       {
          background-color: rgb(44, 44, 199);
-         height: 109%;
+         height: 104%;
          width: 95%;
+         color: white;
+         text-align: center;
+         border: solid black 1px;
+         padding: 20px;
       }
    .box2
       {
          background-color: whitesmoke;
          color: black;
-         padding: 10px;
-         padding-top: 50px;
+         padding: 50px;
          height: 100%;
          width: 95%;
+         border: solid black 1px;
+         text-align: center;
       }
    h1
       {
          font-size: xx-large;
-         text-align: center;
       }
-   p
-      {
-         text-align: justify;
 
-      }
    h3
       {
-         text-align: left;
-      }
-   h2
-      {
-         background-color: lightskyblue; 
-         margin: 10px;
-         color: white;
-         text-align: center;
-
+         font-size: large;
       }
    #educacion
       {
          width: 200px;
+
       }
-   .borde
-      {
-         border: solid black 1px;
-      }
+
    .contacto
       {
-         color: white;
-         text-align: center;
-         font-size: large;
+         font-size: x-large;
+      }
+   img
+      {
+         align-items:end;
+      }
+
+   .nav  
+      {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+   td, th
+      {
+         border: solid black 1px;  
+      }
+   .border
+      {
+         border: solid black 1px;  
       }
