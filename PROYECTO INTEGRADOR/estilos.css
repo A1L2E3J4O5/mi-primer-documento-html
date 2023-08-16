@@ -1,96 +1,81 @@
-   body
-      {
-         background-color: lightblue
-      }
-   .CENTER
-      {
-         font-size: xx-large;
-      }
+body
+   {
+      background-color: rgb(255, 255, 255);
+      margin-top: 30px;
 
-   .perfil
-      {
-         margin-top: 50px;
-         width:50%;
-         height: 20%;
-      }
-   .container
-      {
-         display: grid;
-         grid-template-columns: 3fr 8fr;
+   }
+.container
+   {
+      background-color: gray;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
 
-         margin: 10vh;
+   }
+/* informacion */
+.caja1
+   {
+      background-color: rgb(182, 219, 228);
+      grid-row-start:1;
+      grid-row-end: 4;
+      border: solid 3px black;
+   }
+/* tITULO */
+H1
+   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+/* HABILIADADES */
+   .caja2
+   {
+      background-color: rgb(182, 219, 228);
+      border: solid 3px black;
+      grid-column-start: 2;
+      grid-column-end: 4;
+   }
+/* EXPERIENCIA */
+   .caja3
+   {
+      background-color: rgb(182, 219, 228);
+      border: solid 3px black;
+      grid-column-start: 2;
+      grid-column-end: 4;
 
-      }
-   .box1
-      {
-         background-color: rgb(44, 44, 199);
-         height: 104%;
-         width: 95%;
-         color: white;
-         text-align: center;
-         border: solid black 1px;
-         padding: 20px;
-      }
-   .box2
-      {
-         justify-content: center;
-         align-items: center;
-         background-color: whitesmoke;
-         color: black;
-         padding: 50px;
-         height: 100%;
-         width: 95%;
-         border: solid black 1px;
-         text-align: center;
-      }
-   h1
-      {
-         font-size: xx-large;
-      }
+   }
+/* GIT LIN Y CAJA  */
+   .caja4
+   {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      background-color: rgb(182, 219, 228);
+      border: solid 3px black;
+      display: grid;
+      grid-template-columns: 1FR 1FR;
+      align-items: center;
+      justify-content: center;
+   }
+   /* github */
 
-   h3
-      {
-         font-size: large;
-      }
-   #educacion
-      {
-         width: 200px;
+   .imagen
+   {
 
-      }
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      
+   }
 
-   .contacto
-      {
-         font-size: x-large;
-      }
-   img
-      {
-         align-items:end;
-      }
+      /* linkedin */
 
-   .nav  
-      {
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-      }
-   td, th
-      {
-         border: solid black 1px;  
-      }
-   .border
-      {
-         border: solid black 1px;  
-      }
-   @media screen and (max-width: 500px) {
-      .box2
-      {
-         background-color: blue;
-         color: black;
-         padding: 50px;
-         height: 100%;
-         width: 95%;
-         border: solid black 1px;
-         text-align: center;
-      }
-     }
-     
+.imagen2
+   {
+
+      
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+   }
