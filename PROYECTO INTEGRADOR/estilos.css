@@ -4,6 +4,16 @@ body
       margin-top: 30px;
 
    }
+   .borde
+   {
+      border-right: solid ;
+
+   }
+   .borde1
+   {
+      border-top: solid ;
+
+   }
 .container
    {
       background-color: gray;
@@ -18,64 +28,198 @@ body
       background-color: rgb(182, 219, 228);
       grid-row-start:1;
       grid-row-end: 4;
-      border: solid 3px black;
+      display: grid;
+      grid-template-columns: 1FR 1FR;
+      grid-template-rows: 1fr 1fr 1fr ;
+      padding: 3vh;
+      font-family:'Times New Roman', Times, serif;
+      font-size: large;
+
    }
+   .perfil
+      {
+         border: solid 2px black;
+      }
 /* tITULO */
 H1
    {
       display: flex;
       justify-content: center;
       align-items: center;
+      grid-column-start: 1;
+      grid-column-end: 3;   
+      font-size: 2vw;
    }
-/* HABILIADADES */
-   .caja2
+
+p
    {
-      background-color: rgb(182, 219, 228);
-      border: solid 3px black;
-      grid-column-start: 2;
-      grid-column-end: 4;
-   }
-/* EXPERIENCIA */
-   .caja3
-   {
-      background-color: rgb(182, 219, 228);
-      border: solid 3px black;
-      grid-column-start: 2;
-      grid-column-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
 
    }
+/* contacto */
+ul 
+   {
+      grid-column-start: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      font-size: x-large;
+   }
+/* texareea */
+textarea
+   {
+      grid-column-start: 1;
+      grid-column-end: 3;
+   }
+button
+   {
+      grid-column-start: 1;
+      grid-column-end: 3;
+   }
+   h2
+   {
+      font-size: xx-large;
+      color: rgb(21, 3, 154);
+   }
+/* HABILIADADES */
+.caja2
+   {
+      background-color: rgb(182, 219, 228);
+      grid-column-start: 2;
+      grid-column-end: 4;
+      padding: 3vh;
+      font-size: large;
+      font-family:'Times New Roman', Times, serif;
+   }
+   table,th,td
+      {
+         border: solid 2px;
+      }
+/* EXPERIENCIA */
+.caja3
+   {
+      background-color: rgb(182, 219, 228);
+      grid-column-start: 2;
+      grid-column-end: 4;
+      padding: 3vh;
+      font-size: large;
+      font-family:'Times New Roman', Times, serif;
+   }
 /* GIT LIN Y CAJA  */
-   .caja4
+.caja4
    {
       grid-column-start: 2;
       grid-column-end: 4;
       background-color: rgb(182, 219, 228);
-      border: solid 3px black;
       display: grid;
       grid-template-columns: 1FR 1FR;
       align-items: center;
       justify-content: center;
+      padding: 3vh;
+
    }
    /* github */
 
-   .imagen
+.imagen
    {
-
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      
+   }
+.git
+   {
+      width: 100vh;
+      border: solid 2px black;
+
    }
 
       /* linkedin */
 
 .imagen2
    {
-
-      
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: center;
    }
+.lin
+   {
+      width: 100vh;
+      border: solid 2px black;
+
+   }
+   @media (max-width:1920px) {
+      .git
+         {
+            width: 30vh;
+         }
+      .lin
+         {
+            width: 30vh;
+         }
+    }
+    @media (max-width: 1162px) {
+      .container
+         {
+            display: contents;
+         }
+    }
+   @media (max-width: 778px) {
+      textarea
+         {
+            grid-column-start: 1;
+            grid-column-end: 2;
+         }
+      button
+         {
+            grid-column-start: 1;
+            grid-column-end: 2;
+         }
+      p
+         {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+         }
+      ul 
+         {
+            grid-column-start: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            font-size: large;
+         }
+    }
+    @media (max-width: 693px) {
+      ul 
+      {
+         font-size: small;
+      }
+    }
+    @media (max-width: 600px) {
+      ul 
+      {
+         font-size: 0;
+      }
+      h2
+      {
+         font-size: 0;
+      }
+    }
+    @media (max-width: 560px) {
+      .git
+      {
+         width: 10vh;
+      }
+   .lin
+      {
+         width: 10vh;
+      }
+      h1
+      {
+         font-size: x-large;
+      }
+    }
